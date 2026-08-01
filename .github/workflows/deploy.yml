@@ -55,23 +55,40 @@ jobs:
       - name: Validate links
         run: python scripts/validate_links.py
 
-      - name: Build EPUB and PDF (optional — requires all 6 stories translated)
-        id: book_build
-        continue-on-error: true
+      - name: Check complete-book readiness
+        id: readiness
+        run: |
+          slugs="printcrime when-sysadmins-ruled-the-earth andas-game i-robot i-row-boat after-the-siege"
+          ready=true
+          not_ready_count=0
+          for slug in $slugs; do
+            f="docs/ja/${slug}.md"
+            if [ ! -f "$f" ]; then
+              ready=false
+              not_ready_count=$((not_ready_count + 1))
+              continue
+            fi
+            if ! grep -qE '^translation_status:[[:space:]]*(reviewed|final)[[:space:]]*$' "$f"; then
+              ready=false
+              not_ready_count=$((not_ready_count + 1))
+            fi
+          done
+          echo "ready=$ready" >> "$GITHUB_OUTPUT"
+          if [ "$ready" != "true" ]; then
+            echo "::notice::Complete-book build skipped — $not_ready_count of 6 stories are not yet present with translation_status: reviewed or final."
+          fi
+
+      - name: Build EPUB and PDF (complete book — all 6 stories reviewed/final)
+        if: steps.readiness.outputs.ready == 'true'
         run: npm run book:all
 
       - name: Verify book outputs exist
-        if: steps.book_build.outcome == 'success'
+        if: steps.readiness.outputs.ready == 'true'
         run: |
           test -s docs/public/downloads/overclocked-ja.epub
           test -s docs/public/downloads/overclocked-ja.pdf
           file docs/public/downloads/overclocked-ja.epub
           file docs/public/downloads/overclocked-ja.pdf
-
-      - name: Note skipped book build
-        if: steps.book_build.outcome != 'success'
-        run: |
-          echo "::notice::EPUB/PDF build was skipped or failed (expected while the translation is incomplete: scripts/build_book.py refuses to build until all 6 stories exist in docs/ja/). Continuing with a VitePress-only site deploy; no book download files will be published this run."
 
       - name: Build VitePress site
         run: npm run docs:build

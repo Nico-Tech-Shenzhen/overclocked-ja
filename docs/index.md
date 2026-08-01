@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 最初から読む
-      link: /ja/front-matter
+      link: /ja/printcrime
     - theme: alt
       text: クレジット
       link: /credits
@@ -38,18 +38,18 @@ features:
 
 ### 前書き
 
-- [Front Matter（表紙・ライセンス表記）](/ja/front-matter) — 準備中
+- Front Matter（表紙・ライセンス表記） — 準備中
 
 ### 短編（原著収録順）
 
 | # | 短編 | 状況 |
 |---|------|------|
 | 1 | [Printcrime](/ja/printcrime) | 下訳あり（draft） |
-| 2 | [When Sysadmins Ruled the Earth](/ja/when-sysadmins-ruled-the-earth) | 準備中 |
-| 3 | [Anda's Game](/ja/andas-game) | 準備中 |
-| 4 | [I, Robot](/ja/i-robot) | 準備中 |
-| 5 | [I, Row-Boat](/ja/i-row-boat) | 準備中 |
-| 6 | [After the Siege](/ja/after-the-siege) | 準備中 |
+| 2 | When Sysadmins Ruled the Earth | 準備中 |
+| 3 | Anda's Game | 準備中 |
+| 4 | I, Robot | 準備中 |
+| 5 | I, Row-Boat | 準備中 |
+| 6 | After the Siege | 準備中 |
 
 各短編ページには、著者コリイ・ドクトロウによるその短編への序文（Introduction）と、短編本文の両方を収録します。
 
