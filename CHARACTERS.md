@@ -63,21 +63,88 @@ translated provisionally as 警察 — flagged inline for human verification aga
 
 ## When Sysadmins Ruled the Earth
 
-**Narrator / voice:** PLACEHOLDER — determine from `source/sections/02-when-sysadmins-ruled-the-earth.txt`.
-**First-person pronoun:** PLACEHOLDER.
-**Register:** PLACEHOLDER — expect sysadmin/IT professional jargon and workplace culture; confirm from source before adding vocabulary rules.
-**Cast / names:** PLACEHOLDER.
-**Notes:** A published Japanese translation of this story exists elsewhere. Do not consult it under any circumstance.
+**Narrator / voice:** Third-person limited, close to Felix throughout (not a first-person
+narrator, unlike Printcrime). Confirmed from `source/sections/02-when-sysadmins-ruled-the-earth.txt`.
+Rendered in plain narrative Japanese without a narrator pronoun; dialogue carries the
+character voices instead.
+**First-person pronoun (in dialogue):** Felix uses 俺 (casual, blue-collar-adjacent IT-guy
+register); Kelly uses あんた/わたし in dialogue with Felix (direct, familiar-married-couple
+register); Van uses 俺; Will Sario uses 俺, clipped and confrontational; Popovich uses 俺;
+Queen Kong's chat-log dialogue uses casual/blunt phrasing without gendered pronoun markers
+beyond the fact she is established as a woman; Rosa uses わたし.
+**Register:** Sysadmin/IT workplace jargon and profanity-heavy banter between Felix and Van;
+IRC/newsgroup posts rendered as plain unpunctuated-feeling chat lines, lowercase-flavored in
+Japanese where the English source is lowercase/typo-casual (Queen Kong's and Sario's chat
+lines). Preserve tech terms (BGP, DNS, IRC, root, PEBKAC, port 1337/"leet") per
+`glossary.tsv`. Preserve profanity intensity in dialogue (くそ, クソ, etc.) without softening.
+**Cast / names:** Felix Tremont（フェリックス・トレモント）— protagonist, sysadmin, later
+"Prime Minister of Cyberspace." Kelly（ケリー）— his wife. Their son William, nicknamed
+2.0（2.0）, referred to by that nickname throughout except when his birth-certificate name
+"Will" briefly causes confusion with Will Sario. Van（ヴァン）— Felix's colleague and
+friend, a type-two admin. Will Sario（ウィル・サリオ）— confrontational admin who argues for
+deliberately killing the Internet; distinct character from Felix's dead son "Will," a
+deliberate source-text confusion preserved in translation. Uri Popovich（ウリ・ポポヴィッチ）
+and Diego Rosenbaum（ディエゴ・ローゼンバウム）— the "Bastard Operators From Hell" who
+organize the building. Queen Kong（クイーン・コング）— a woman sysadmin running Google's
+data center, known only by this handle. Rosa（ローザ）— a former RN turned web designer,
+encountered after the group disperses.
+**Notes:** A published Japanese translation of this story exists elsewhere. It was not
+consulted at any point. Preserve 2006-era computing/networking references (IRC, Usenet,
+newsgroups, BGP routers, IPv6, Blackberry, Flickr, Blogger/Typepad/LiveJournal, Google's
+handmade-PC origin story) without modernizing. The "Will"/"Will Sario" name collision (§ line
+149 vs. § line 309 of the source) is intentional in the English text and preserved as-is in
+Japanese — 「ウィル」 for the son, 「ウィル・サリオ」 or 「サリオ」 for the sysadmin, to keep the
+reader's momentary confusion intact without over-clarifying.
 
 ---
 
 ## Anda's Game
 
-**Narrator / voice:** PLACEHOLDER — determine from `source/sections/03-andas-game.txt`.
-**First-person pronoun:** PLACEHOLDER.
-**Register:** PLACEHOLDER — expect online multiplayer game culture and slang; confirm from source before adding vocabulary rules.
-**Cast / names:** PLACEHOLDER.
-**Notes:** A published Japanese translation of this story exists elsewhere. Do not consult it under any circumstance.
+**Narrator / voice:** Third-person limited, close to Anda throughout (same narrative mode as
+"When Sysadmins Ruled the Earth" — not a first-person narrator). Confirmed from
+`source/sections/03-andas-game.txt`. Rendered in plain narrative Japanese without a narrator
+pronoun; dialogue carries character voice.
+**First-person pronoun (in dialogue):** Anda uses あたし (casual British schoolgirl register,
+slightly bratty/sassy with her father, more vulnerable/earnest with Lucy and Raymond); Lucy
+("Sarge") uses あたし with blunter, more American-teen phrasing (だよ/でしょ-heavy, confident,
+occasionally dismissive); Raymond speaks formally and gently, private わたし implied rather
+than stated (his lines are almost entirely in-game chat text, kept terse and grammatical,
+reflecting a careful non-native-English speaker who is nonetheless highly articulate); Liza
+the Organiza uses あたし with a brash, coach-like Australian-inflected register ("ひよっこ"
+for "chicken(s)" as her address term); Anda's Da uses おれ/パパ in dialogue with her,
+blustery-but-affectionate working father register; Anda's Mum is warm/fussing, minimal direct
+dialogue.
+**Register:** Contemporary (2004-era) British schoolgirl slang mixed with MMORPG/gamer chat
+culture. In-game chat lines (marked with `>` in source) are rendered as terse, often
+unpunctuated Japanese chat-text to preserve the typed/casual feel, matching the source's use
+of lowercase and dropped punctuation for excited or careless typing (e.g. Anda's
+"!!!!!!!!!!" chat line, the "u cn have my gold sorry!!!11!" begging noob). Preserve UK-specific
+vocabulary and idiom sense (podge, chav, PE, hockey pitch, "Miss Pot"/"Mr Kettle" callback to
+"pot calling the kettle black") — some of these are rendered by natural equivalent register
+rather than literal gloss; the Pot/Kettle nicknames are kept as カタカナ nicknames
+（ポットちゃん／ケトルさん）without a full idiom explanation, since the source itself does not
+explain the idiom either — flagged here, not as a visible in-text note, per the guide's rule
+against over-explaining what the source leaves implicit.
+**Cast / names:** Anda（アンダ）— 12-year-old British protagonist, in-game handle
+"Kali"（カリ）. Lucy（ルーシー）/ "Sarge"（サージ）— Anda's American platoon-leader friend and
+mission partner, based in the US Midwest. Liza the Organiza（オーガナイザのライザ）— adult
+professional gamer/organizer, Australian-accented, leader of Clan Fahrenheit, visits girls'
+schools recruiting members; addresses girls as "chickens" → ひよっこ. Clan
+Fahrenheit（クラン・ファーレンハイト）— the in-game guild/clan both girls belong to. Raymond
+（レイモンド）— Mexican labor organizer trying to unionize the gold-farming child laborers,
+speaks to Anda in-game under his real name. Anda's parents are referred to only as Da/Mum in
+source, rendered as 父さん／母さん (no proper names given in source; do not invent any).
+**Notes:** A published Japanese translation of this story exists elsewhere. It was not
+consulted at any point. Preserve 2004-era MMORPG culture (BFG/"Big Friendly Gun" as a generic
+superweapon term, PayPal, PC バン／PC Baang as a Korean-style internet café, respawn gates,
+scrying scrolls, eBay gold-selling) without modernizing. The story contains sustained,
+unsanitized fat-shaming dialogue (Anda's own body image distress, the bullying scene at the
+PC café) and one scene of a boy punching and verbally abusing Anda — per
+`TRANSLATION_GUIDE.md` rule 6, this intensity is preserved rather than softened. The Spanish
+chat-line "no porfa necesito mi plata" (broken-Spanish begging, spoken by a child gold-farmer)
+is preserved untranslated in the Spanish in one instance (matching the source's own
+in-story English gloss/paraphrase of it elsewhere) — kept as Latin-alphabet text embedded in
+the Japanese, per "verbatim-preserve items" in the checklist.
 
 ---
 

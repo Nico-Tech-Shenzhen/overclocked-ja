@@ -36,6 +36,8 @@ export default defineConfig({
         text: '短編',
         items: [
           { text: 'Printcrime', link: '/ja/printcrime' },
+          { text: 'When Sysadmins Ruled the Earth', link: '/ja/when-sysadmins-ruled-the-earth' },
+          { text: "Anda's Game", link: '/ja/andas-game' },
         ],
       },
       {

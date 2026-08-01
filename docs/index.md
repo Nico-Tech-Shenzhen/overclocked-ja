@@ -45,8 +45,8 @@ features:
 | # | 短編 | 状況 |
 |---|------|------|
 | 1 | [Printcrime](/ja/printcrime) | 下訳あり（draft） |
-| 2 | When Sysadmins Ruled the Earth | 準備中 |
-| 3 | Anda's Game | 準備中 |
+| 2 | [When Sysadmins Ruled the Earth](/ja/when-sysadmins-ruled-the-earth) | 下訳あり（draft） |
+| 3 | [Anda's Game](/ja/andas-game) | 下訳あり（draft） |
 | 4 | I, Robot | 準備中 |
 | 5 | I, Row-Boat | 準備中 |
 | 6 | After the Siege | 準備中 |
