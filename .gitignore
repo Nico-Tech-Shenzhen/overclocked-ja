@@ -1,0 +1,14 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+
+source/original/*.bak
+
+dist/
+build/
+*.part
+docs/public/downloads/

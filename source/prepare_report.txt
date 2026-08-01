@@ -1,0 +1,40 @@
+Overclocked source preparation — conservation report
+============================================================
+
+Story files present : 6 / 6
+  - Printcrime (Cory_Doctorow_-_Overclocked_-_Printcrime.txt)
+  - When Sysadmins Ruled the Earth (Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt)
+  - Anda's Game (Cory_Doctorow_-_Overclocked_-_Andas_Game.txt)
+  - I, Robot (Cory_Doctorow_-_Overclocked_-_I_Robot.txt)
+  - I, Row-Boat (Cory_Doctorow_-_Overclocked_-_I_Row-Boat.txt)
+  - After the Siege (Cory_Doctorow_-_Overclocked_-_After_the_Siege.txt)
+
+Deduplication
+------------------------------------------------------------
+Forematter: identical (byte-for-byte) across all 6 present file(s). Written once to 00-front-matter.txt (987 bytes).
+License block: NOT byte-identical across all 6 present file(s) — differences were limited to trailing whitespace on one blank line and/or the presence/absence of a final trailing newline. Verified equivalent after whitespace normalization. Written once, whitespace-normalized, to 07-license.txt (1,975 bytes).
+NOTE: Cory_Doctorow_-_Overclocked_-_When_Sysadmins_Ruled_the_Earth.txt license block differs from Cory_Doctorow_-_Overclocked_-_Printcrime.txt only in trailing whitespace / final newline — treated as equivalent after normalization.
+NOTE: Cory_Doctorow_-_Overclocked_-_I_Robot.txt license block differs from Cory_Doctorow_-_Overclocked_-_Printcrime.txt only in trailing whitespace / final newline — treated as equivalent after normalization.
+NOTE: Cory_Doctorow_-_Overclocked_-_I_Row-Boat.txt license block differs from Cory_Doctorow_-_Overclocked_-_Printcrime.txt only in trailing whitespace / final newline — treated as equivalent after normalization.
+NOTE: Cory_Doctorow_-_Overclocked_-_After_the_Siege.txt license block differs from Cory_Doctorow_-_Overclocked_-_Printcrime.txt only in trailing whitespace / final newline — treated as equivalent after normalization.
+
+Per-story unique content
+------------------------------------------------------------
+  01-printcrime.txt                           5,499 bytes  (introduction + story text, Printcrime)
+  02-when-sysadmins-ruled-the-earth.txt      73,938 bytes  (introduction + story text, When Sysadmins Ruled the Earth)
+  03-andas-game.txt                          61,074 bytes  (introduction + story text, Anda's Game)
+  04-i-robot.txt                             89,029 bytes  (introduction + story text, I, Robot)
+  05-i-row-boat.txt                          78,802 bytes  (introduction + story text, I, Row-Boat)
+  06-after-the-siege.txt                    121,699 bytes  (introduction + story text, After the Siege)
+
+Byte accounting
+------------------------------------------------------------
+  Total input bytes (present originals)   : 447,853
+  Total output bytes (all section files)  : 433,003
+  Forematter bytes deduplicated away       : 4,935
+  License bytes deduplicated away          : 9,897
+  Reconstructed total (output + removed)   : 447,835
+  Delta vs. total input                    : +18
+
+All unique content (forematter once, each story's own introduction + story text, license once) is accounted for. No story text was altered, reordered, or condensed by this script; only the two exactly-repeated blocks (forematter, license) were deduplicated, and only after being verified equivalent across every file that contains them.
+

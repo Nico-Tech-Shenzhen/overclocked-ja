@@ -1,0 +1,93 @@
+name: Deploy VitePress to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6.4.0
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pandoc and Noto CJK fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc fonts-noto-cjk
+
+      - name: Install Typst
+        run: pip install --break-system-packages typst
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5.0.0
+
+      - name: Validate section files
+        run: python scripts/validate_sections.py
+
+      - name: Validate links
+        run: python scripts/validate_links.py
+
+      - name: Build EPUB and PDF (optional — requires all 6 stories translated)
+        id: book_build
+        continue-on-error: true
+        run: npm run book:all
+
+      - name: Verify book outputs exist
+        if: steps.book_build.outcome == 'success'
+        run: |
+          test -s docs/public/downloads/overclocked-ja.epub
+          test -s docs/public/downloads/overclocked-ja.pdf
+          file docs/public/downloads/overclocked-ja.epub
+          file docs/public/downloads/overclocked-ja.pdf
+
+      - name: Note skipped book build
+        if: steps.book_build.outcome != 'success'
+        run: |
+          echo "::notice::EPUB/PDF build was skipped or failed (expected while the translation is incomplete: scripts/build_book.py refuses to build until all 6 stories exist in docs/ja/). Continuing with a VitePress-only site deploy; no book download files will be published this run."
+
+      - name: Build VitePress site
+        run: npm run docs:build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: docs/.vitepress/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5.0.0
