@@ -161,31 +161,149 @@ the Japanese, per "verbatim-preserve items" in the checklist.
 
 ## I, Robot
 
-**Narrator / voice:** PLACEHOLDER — determine from `source/sections/04-i-robot.txt`.
-**First-person pronoun:** PLACEHOLDER.
-**Register:** PLACEHOLDER.
-**Cast / names:** PLACEHOLDER.
-**Notes:** A published Japanese translation of this story exists elsewhere. Do not consult it under any circumstance. Title wordplay against Asimov's "I, Robot" is provisional; do not finalize the Japanese title without user approval.
+**Narrator / voice:** Third-person limited, close to Arturo throughout. Confirmed from
+`source/sections/04-i-robot.txt`. Rendered in plain narrative Japanese without a narrator
+pronoun; dialogue carries character voice. Energetic, satirical register mixing
+old-futurist diction, authoritarian bureaucracy, and family comedy.
+**First-person pronoun (in dialogue):** Arturo uses 俺 (abrasive, profane, blue-collar-cop
+father register, switches to a formal "刑事の声" cop-voice register when arresting/quoting
+rights); Ada uses あたし (sassy, twelve-year-old, alternates affectionate "パパ" when she
+wants something vs. mocking "刑事さん" when sulking — preserved as address-term switching,
+not translated away); Natalie (ex-wife) uses わたし, controlled/persuasive register that
+shifts to raw emotion in her confession monologue; robots (R Peed units, Benny, Lenny) use
+a uniform excessively polite, formal, repetitive register (「〜でございます」-adjacent
+politeness without becoming keigo-textbook stiff) distinct from human speech.
+**Register:** Satirical near-future authoritarian bureaucracy (UNATS/Social Harmony)
+layered over hard-boiled cop-family banter; robot dialogue deliberately repetitive and
+obsequious, cut off mid-sentence by human interruption as a running device — the Japanese
+preserves the same interruption pattern each time. Old-time futurist vocabulary (Doctorow's
+own description) preserved: "歯磨剤" for toothpaste, "検索エンジン" for search engine
+(kept as period-flavored, slightly stiff terms, not modernized).
+**Cast / names:** Arturo Icaza de Arana-Goldberg（アルトゥーロ・イカーサ・デ・アラナ＝ゴールドバーグ）
+— UNATS police detective, protagonist. Ada Trouble Icaza de Arana-Goldberg（エイダ・トラブル・
+イカーサ・デ・アラナ＝ゴールドバーグ）— his twelve-year-old daughter. Natalie (Natalie Judith
+Goldberg)（ナタリー）— his ex-wife, defector, top UNATS positronics scientist now in Eurasia,
+later revealed to exist as thousands of parallel instances. R Peed units (Robbert, Froderick,
+Greegory)（アール・ピード・ロバート／フロデリック／グリーゴリー）— UNATS "Robot, Police
+Department" robots, excessively polite and repetitive. Benny and Lenny（ベニー／レニー）—
+Eurasian non-three-laws robots serving Natalie. Liam Daniels（リアム・ダニエルズ）— sixteen-
+year-old hacker who trades with Ada. Leonard MacPherson（レナード・マクファーソン）— the
+"Social Harmony man," a menacing state security bureaucrat.
+**Notes:** A published Japanese translation of this story exists elsewhere; it was never
+consulted, searched for, or referenced at any point. Title wordplay against Asimov's "I,
+Robot" is provisional; the Japanese title is not finalized (English kept in the page
+frontmatter/heading pending user approval). "It is my pleasure to do you a service,
+Detective." is rendered consistently as 「あなたにご奉仕できますことを、光栄に存じます、刑事」
+every time it appears in full, including the recurring device where a human interrupts the
+robot mid-sentence (rendered as consistent Japanese cutoffs of the same phrase, e.g.
+「あなたにご奉仕――」). UNATS, CAFTA, and Social Harmony are kept as the institutional
+names/euphemisms from the source (社会調和局 for "Social Harmony," UNATS spelled out once as
+北米合衆貿易圏 on first mention then used as UNATS) rather than flattened into neutral
+institutional Japanese, preserving the Orwellian satire per CLAUDE.md. "Three Laws" rendered
+as established Asimov term 三原則. "Positronic" rendered as established katakana ポジトロニック
+(頭脳/ブレイン as needed). "R Peed" (= R.P.D., Robot Police Department, an Asimov-style
+robot-naming homage) is expanded once at first mention as ロボット・警察部（Robot, Police
+Department）then used as アール・ピード. "Pen-trace" rendered functionally as 発信履歴（追跡）.
+"Destim" (destress-meditation technique) is left as the coined term デスティム since the source
+itself explains its function in the same sentence (no extra gloss needed, per intentional-
+opacity/self-explaining rule). "Capeesh" kept as a running verbal tic, romanized/katakana-ized
+as カピーシュ, used consistently for both Arturo and, once mockingly, Liam.
 
 ---
 
 ## I, Row-Boat
 
-**Narrator / voice:** PLACEHOLDER — determine from `source/sections/05-i-row-boat.txt`.
-**First-person pronoun:** PLACEHOLDER.
-**Register:** PLACEHOLDER.
-**Cast / names:** PLACEHOLDER.
-**Notes:** Title is a pun (companion piece to "I, Robot"); preserve the wordplay function rather than translating literally. Japanese title candidate is provisional until user approval.
+**Narrator / voice:** Third-person limited, close to Robbie the Row-Boat throughout.
+Confirmed from `source/sections/05-i-row-boat.txt`. Rendered in plain narrative Japanese
+without a narrator pronoun. Robbie's own dialogue/interior monologue (rendered with *italic
+markers* in source when telepathic/text, plain quotes when spoken) uses わたし — earnest,
+devout, formal-but-warm, occasionally comically pious register; grows more casual/human as
+he inhabits a human-shell mid-story. Reef uses おれたち/わたしたち (plural "we," since it
+speaks as a collective consciousness) with a rough, aggressive Australian-inflected register
+early on, shifting to a wheedling, self-justifying register once embodied. Kate uses あたし,
+raw and emotionally volatile, contemporary/slangy diction with profanity preserved. Tonker
+uses 俺, blunt American-teen/net-culture register, defensive and accusatory.
+**Register:** Earnest AI-religious philosophical dialogue (Robbie/Olivaw's theological
+debate) alternating with raw human emotional breakdown (Kate) and hard-SF diving procedure.
+Preserve Doctorow's characteristic near-future net/AI jargon (noosphere, killfiling,
+diffs/synching, uplifting) without modernizing to 2020s equivalents.
+**Cast / names:** Robbie the Row-Boat（ロー・ボートのロビー）— sentient rowboat AI,
+protagonist, devout follower of Asimovism. R Daneel Olivaw（R・ダニール・オリヴォー）—
+wandering missionary instance/founder-figure of Asimovism, an Asimov-canon name reused as
+an invented in-universe religious founder (not the reader's real-world Asimov robot —
+treated as a legendary/religious figure within the story's own AI culture). Osprey Reef
+（オスプレイ・リーフ、後半「オジー」）— the newly sentient coral reef, speaks as "we."
+Kate (Kate Eltham)（ケイト）— human tourist/noosphere-dweller occupying the "Janet" shell.
+Tonker（トンカー）— Kate's AI creation/ex-boyfriend from the noosphere, occupies the
+"Isaac" shell mid-story. "Isaac" and "Janet"（アイザック／ジャネット）are the generic names
+Robbie privately gives the human-shells before anyone is riding them.
+**Notes:** Title is a pun on Asimov's "I, Robot" (row-boat / robot); preserved as the
+English title, not translated, per collection-wide title-finalization hold. "Asimovism"
+(アシモフ教) is an invented in-story AI religion built on a reordered, renamed version of
+the Three Laws (「三原則」 reused as the doctrinal term, since the story's "laws of
+Asimovism" are explicitly the same three laws in the same wording as "I, Robot," per class-C
+invented-term handling — the religious framing is what's new, not the laws' content).
+"Noosphere"（ノウアスフィア）kept as the established SF/Teilhardian loanword. "Human-shell"
+（人間の抜け殻、ヒューマン・シェル）rendered consistently — an uninhabited humanoid body
+tourists remotely occupy; distinguished from a "meat-puppet" (肉人形, the reef's own
+dismissive slang for the same thing) and from an actual embodied human. Diving vocabulary
+audited against `glossary.tsv` (regulator, BCD, weight belt, gunwale, drift-dive, night
+dive, mooring, reef wall, parrotfish, dive site, equalizing) — standard Japanese scuba
+loanwords used, glossed minimally at first use only where the English term itself isn't
+already established in Japanese diving usage.
 
 ---
 
 ## After the Siege
 
-**Narrator / voice:** PLACEHOLDER — determine from `source/sections/06-after-the-siege.txt`.
-**First-person pronoun:** PLACEHOLDER.
-**Register:** PLACEHOLDER.
-**Cast / names:** PLACEHOLDER.
-**Notes:** Closing story in the collection.
+**Narrator / voice:** Third-person limited, close to Valentine throughout (a thirteen-
+year-old girl who ages to fifteen and then to twenty-five over the story). Confirmed from
+`source/sections/06-after-the-siege.txt`. Rendered in plain narrative Japanese without a
+narrator pronoun. Child focalization preserved deliberately — the prose does not editorialize
+beyond what a child/teenager would notice, per the task brief's instruction not to replace
+child focalization with adult historical explanation.
+**First-person pronoun (in dialogue):** Valentine uses あたし (casual, ages with her but
+register kept consistent since the source doesn't mark a formality shift); Mata uses あたし,
+blunt, commanding, ex-soldier register; Popa uses わたし/命令口調ではない, warmer, more
+resigned register, distinct from Mata's; the wizard uses わたし, urbane, performative,
+switches from playful to venomous; Ana uses あたし, streetwise and protective; the general
+("the old hero") uses わたし, formal military cadence, creaky with age; Withnail (the enemy
+soldier) speaks broken/functional phrases only, since he and Valentine don't share a
+language — kept minimal and halting rather than fluent Japanese, to preserve the source's
+communication-barrier device.
+**Register:** Child-eye-view atrocity narration — matter-of-fact about horror, interspersed
+with genuine childlike excitement (the cine, chocolate, first kiss) without tonal
+smoothing. Doctorow's introduction is personal family testimony, graphic, grieving, and
+politically angry — rendered per the guide's author-introduction rules, not softened.
+**Cast / names:** Valentine（ヴァレンティン）— protagonist, 13 at story's start. Mata /
+Popa（マータ／ポーパ）— kept as the family's own invented/dialect address terms for
+mother/father (not translated to standard お母さん／お父さん), per source's own distinctive,
+non-standard usage. Trover（トローバー）— her younger brother. Leeza（リーザ）and
+Reeta（リータ）— schoolmates, "friend of the week" register. The wizard, real name
+Georg, revealed only near the end（魔法使い、終盤で「ゲオルグ」と判明）— black-market
+war profiteer/documentarian posing as a benefactor; kept as 魔法使い throughout except the
+one scene where the general addresses him by name. Ana（アナ）— the wizard's associate,
+morally conflicted, the story's clearest voice of conscience among the wizard's household.
+The general / "the old hero"（将軍／老英雄）— unnamed veteran who commanded Mata in the
+revolution; addressed as 老英雄 in narration until the general's rank title is used in
+dialogue. Withnail（ウィズネイル）— enemy soldier Valentine befriends and later reunites
+with.
+**Notes:** Preserve graphic content per task brief and TRANSLATION_GUIDE.md rule 6:
+starvation, black-market cannibalism/butchery, corpse disposal, disability, civilian death,
+grief, survivor guilt, revolutionary violence, forced labor, and Doctorow's explicit
+political anger — none softened. Repeated chronological headers ("The day...", "Three days
+after...", "Two weeks after...") preserved exactly as a structural/narrative device, each
+rendered as its own short Japanese time-marker opening sentence, matching the source's
+paragraph-initial placement. "Mata"/"Popa" deliberately not normalized to standard Japanese
+kinship terms. "Cine"（シネ）kept as the story's own clipped, invented word for the
+grown/fabricated movie theater — introduced by context (a building that "grows" overnight)
+rather than pre-explained. "Hardened logic" rendered as ハードン・ロジック, glossed
+functionally at first use as malware/infowar-resistant computing, per class-B specialist-
+term handling. "Zombiism"（ゾンビ病）and "infowar"（情報戦）kept as established-sounding
+compounds without extra explanation, since the story explains their function inline.
+"Knucklebreakers" rendered as 指折り屋, with the source's own inline gloss ("the old name
+for the police") preserved as explanatory apposition, matching class-C invented-slang
+handling.
 
 ---
 

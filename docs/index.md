@@ -47,9 +47,9 @@ features:
 | 1 | [Printcrime](/ja/printcrime) | 下訳あり（draft） |
 | 2 | [When Sysadmins Ruled the Earth](/ja/when-sysadmins-ruled-the-earth) | 下訳あり（draft） |
 | 3 | [Anda's Game](/ja/andas-game) | 下訳あり（draft） |
-| 4 | I, Robot | 準備中 |
-| 5 | I, Row-Boat | 準備中 |
-| 6 | After the Siege | 準備中 |
+| 4 | [I, Robot](/ja/i-robot) | 下訳あり（draft） |
+| 5 | [I, Row-Boat](/ja/i-row-boat) | 下訳あり（draft） |
+| 6 | [After the Siege](/ja/after-the-siege) | 下訳あり（draft） |
 
 各短編ページには、著者コリイ・ドクトロウによるその短編への序文（Introduction）と、短編本文の両方を収録します。
 

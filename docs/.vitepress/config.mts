@@ -38,6 +38,9 @@ export default defineConfig({
           { text: 'Printcrime', link: '/ja/printcrime' },
           { text: 'When Sysadmins Ruled the Earth', link: '/ja/when-sysadmins-ruled-the-earth' },
           { text: "Anda's Game", link: '/ja/andas-game' },
+          { text: 'I, Robot', link: '/ja/i-robot' },
+          { text: 'I, Row-Boat', link: '/ja/i-row-boat' },
+          { text: 'After the Siege', link: '/ja/after-the-siege' },
         ],
       },
       {

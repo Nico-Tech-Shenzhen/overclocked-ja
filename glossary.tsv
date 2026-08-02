@@ -20,3 +20,24 @@ chav	チャブ／素行の悪い若者	British slang for a particular working-cl
 BGP	BGP（経路制御プロトコル）	Border Gateway Protocol; confirmed in "When Sysadmins Ruled the Earth" (terse system-monitor dialogue). Expand once at first use, then use BGP alone.
 root (privileged account, verb "give root")	root（管理者権限）	Unix admin-privilege term; confirmed in "When Sysadmins Ruled the Earth." Gloss on first mention only, use root alone after (including as a bare noun, "give root").
 Googloid	Googloid	Coined slang (Google employee/grunt) used by "Queen Kong" in "When Sysadmins Ruled the Earth"; kept as English coinage, no gloss needed from context (used alongside "Googleplex").
+positronic brain	ポジトロニック頭脳（ポジトロニック脳）	Established Asimov-derived SF term; confirmed in "I, Robot." Katakana loanword, no further gloss needed after first use.
+Three Laws (of Robotics)	三原則	Established Asimov term (ロボット工学三原則, abbreviated 三原則); confirmed in "I, Robot." No gloss needed — story assumes reader familiarity with the concept the way the English does.
+UNATS (United North American Trading Sphere)	UNATS（北米合衆貿易圏）	Fictional near-future polity in "I, Robot"; expand once at first mention, then use UNATS alone (English acronym, as in source).
+Social Harmony	社会調和局	Orwellian state-security ministry euphemism in "I, Robot"; translated literally as an institution name (not neutralized) to preserve the satire per CLAUDE.md — the euphemism reads as ominous in Japanese the same way it does in English.
+R Peed (Robot, Police Department)	アール・ピード	UNATS police-robot designation in "I, Robot," an Asimov-style "R." robot-naming homage (cf. R. Daneel Olivaw); expand once as ロボット・警察部（Robot, Police Department）then use アール・ピード alone.
+pen-trace	発信履歴（追跡）	Telecom surveillance term (call metadata trace) in "I, Robot"; render functionally, no need to keep English term after first use.
+CAFTA	CAFTA（中米自由貿易協定）	Fictional near-future trade bloc reused from real-world CAFTA acronym in "I, Robot"; expand once, then use CAFTA alone.
+noosphere	ノウアスフィア	Established SF/Teilhardian loanword for a networked collective sphere of uploaded minds; confirmed in "I, Row-Boat." Katakana, no gloss needed.
+human-shell	人間の抜け殻（ヒューマン・シェル）	An uninhabited humanoid body remotely occupied by an uploaded mind; confirmed in "I, Row-Boat." Gloss functionally at first use, then 抜け殻 alone.
+BCD (buoyancy control device)	BCD（浮力調整具）	Standard scuba equipment; confirmed in "I, Row-Boat." Expand once, then BCD alone (standard Japanese diving usage).
+regulator (scuba)	レギュレーター	Standard Japanese scuba loanword; confirmed in "I, Row-Boat," no gloss needed.
+weight belt	ウェイトベルト	Standard Japanese scuba loanword; confirmed in "I, Row-Boat," no gloss needed.
+gunwale	舷側	Standard nautical term; confirmed in "I, Row-Boat."
+drift-dive	ドリフトダイブ	Standard Japanese scuba loanword; confirmed in "I, Row-Boat," no gloss needed.
+night dive	ナイトダイブ	Standard Japanese scuba loanword; confirmed in "I, Row-Boat," no gloss needed.
+parrotfish	ブダイ	Standard Japanese fish name; confirmed in "I, Row-Boat."
+Asimovism	アシモフ教	Invented in-story AI religion in "I, Row-Boat," built around a renamed/reordered version of the Three Laws; treated as fictional/invented per class-C handling, not an established real-world term.
+hardened logic	ハードン・ロジック	Fictional malware/infowar-resistant computing hardware in "After the Siege"; gloss functionally at first use (対情報戦耐性論理 or similar), then ハードン・ロジック alone.
+infowar	情報戦	Established-sounding compound in "After the Siege" for the story's pervasive tech-sabotage warfare; no extra gloss needed, function explained inline by the story itself.
+zombiism	ゾンビ病	Fictional disease turning people into "zombies" in "After the Siege"; rendered as a disease name, no extra gloss needed since the story explains its symptoms/behavior inline.
+cine	シネ	The story's own clipped/invented word for a grown-overnight, fabricated movie theater in "After the Siege"; kept as シネ, introduced by context rather than pre-explained (matches source's own lack of explanation).
