@@ -33,11 +33,9 @@ adapted naturally for the page:
 ```html
 <small>
 *原著*: *Overclocked: Stories of the Future Present* © Cory Doctorow<br>
-*出版*: Thunder's Mouth Press, 2007<br>
-*日本語訳*: 高須正和（@tks） — [https://takasumasakazu.net](https://takasumasakazu.net)<br>
-*協力*: ニコ技深圳コミュニティ<br>
-*ライセンス*: CC BY-NC-SA 2.5<br>
-*注記*: 本翻訳は、原著の Creative Commons ライセンス条件に従って公開する高須正和による日本語訳であり、出版社による公式日本語版ではありません。
+*出版*: Thunder's Mouth Press<br>
+*日本語訳・レビュー*: ニコ技深圳コミュニティ / 高須正和（@tks） — [https://takasumasakazu.net](https://takasumasakazu.net) — CC BY-NC-SA 2.5<br>
+*注記*: 本翻訳は、原著の Creative Commons ライセンス条件に従って公開する翻訳であり、出版社による公式日本語版ではありません。
 </small>
 ```
 
@@ -299,6 +297,112 @@ concept.
 - Do not turn an explanation into textbook prose.
 - Preserve the voice established by the story's own narrator.
 
+## Reader orientation for technical and culture-specific terms
+
+The intended Japanese reader may be technically interested but must not be assumed to be
+a professional sysadmin or familiar with early-2000s English-speaking Internet culture.
+This section extends **Technology and cultural explanation policy** above with a
+concrete classification to apply at each first occurrence of an unfamiliar term.
+
+**A. Established Japanese technical term or widely recognized abbreviation.**
+Keep the established form. If the abbreviation may obstruct comprehension, expand it
+once — e.g. `UPS（無停電電源装置）` — then use `UPS` alone afterward. Do not repeatedly
+gloss it.
+
+**B. Specialist term with no immediately clear Japanese meaning.**
+Give the function first, followed by the source term only when the term itself matters
+— e.g. `データセンター内の施錠されたサーバー区画（ケージ）`, `IPアドレス帯（ネットブロック）`.
+After first use, use the shortest natural form that remains accurate — e.g. `ケージ`,
+`アドレス帯`. Do not leave an opaque katakana transliteration as the only explanation.
+
+**C. Fictional, character-created, or joking name.**
+Preserve the name or joke, but make clear that it is invented or character-specific when
+the Japanese would otherwise make it look like a real external reference. For example,
+`Felix's Law` is not a famous law the reader is expected to know — the translation must
+show that Felix has jokingly named the principle after himself.
+
+**D. Intentionally unexplained worldbuilding or delayed explanation.**
+Preserve opacity or delayed explanation when it has a literary function: reveal, punch
+line, suspense, characterization, or reader discovery. Do not front-load an explanation
+if doing so ruins that function.
+
+### Explanation timing
+
+Default: provide the minimum functional explanation at first use, especially when the
+source supplies the explanation in the same paragraph or nearby. Do not force the reader
+to continue through several opaque sentences before learning what a term does.
+
+Exception: preserve delayed explanation when the delay itself performs a literary
+function (see class D above).
+
+When moving information forward to first use:
+- Preserve all source information; preserve paragraph order unless absolutely necessary.
+- Do not reveal future plot information.
+- Do not turn prose into a textbook or translator's note.
+- Prefer a brief inline functional explanation; do not add repeated parenthetical
+  definitions.
+
+### Referent clarity
+
+Translate vague English location words according to their actual referent when Japanese
+would otherwise be unclear. For example, `from here`, spoken by a character at home,
+should normally become `家から`, not the unexplained `ここから`. Identify whether a word
+like `cage` means an animal cage, a server enclosure, or a secured colocation area before
+translating.
+
+### Technical agency and topology
+
+When translating infrastructure descriptions, verify: what is being logged into; what is
+rebooted or power-cycled; which interface belongs to which device; which router or
+network is independent; which equipment is protected by which UPS. Do not preserve
+English pronoun attachment when it makes the Japanese topology unclear.
+
+## Cory Doctorow's author introductions
+
+Doctorow's author introductions are personal spoken essays, not academic introductions
+or publishing reports. Rebuild English syntax freely into direct, natural Japanese.
+Preserve rhetorical information order, irony, exaggeration, repetition, sudden short
+sentences, metaphor structure, and punch lines. Avoid bureaucratic nominalization and
+report-like phrases. Split long English sentences when Japanese rhythm benefits, but do
+not weaken technical meaning or argumentative force.
+
+Clarifications:
+- Source paragraph order must remain intact.
+- Japanese sentence boundaries may differ from English sentence boundaries.
+- A short source sentence must not be expanded into a formal explanation.
+- A long source sentence may be divided, provided its rhetorical progression remains
+  intact.
+- Technical terms should be explained by function when a literal calque produces
+  unnatural Japanese.
+- Coined phrases (e.g. `object-on-demand printing`) should not automatically become
+  opaque katakana compounds — render by function/meaning unless an established
+  glossary term already exists.
+
+Patterns to avoid unless the context genuinely requires them (translation-shaped,
+report-like Japanese):
+- 「〜との見解を示した」
+- 「〜であると感じた」
+- 「〜に対する統制力」
+- 「〜ということを意味する」
+- 「〜聞きに行ったことがあった」
+- Long sentences that postpone the Japanese predicate only because the English does.
+
+Prefer direct, spoken-essay Japanese:
+- 「〜と言った」
+- 「〜と思ったらしい」
+- 「〜を支配する力」
+- Short declarative sentences.
+- Splitting one English sentence into two or more Japanese sentences when it improves
+  rhythm.
+
+Do not flatten Doctorow into neutral explanatory prose. Natural Japanese does not mean
+removing his sarcasm, intensity, repetition, technical precision, or rhetorical
+structure. Do not make the Japanese more formal, calmer, more neutral, or more polite
+than the English.
+
+This voice check applies to every story's author introduction (all six stories have
+one) and is run via `/oc-review-introduction` — see `.claude/skills/oc-review-introduction/SKILL.md`.
+
 ## Rule Candidates
 
 If you identify a recurring translation issue that may be worth generalizing across
@@ -313,7 +417,8 @@ become project-wide rules.
 `/oc-postcheck` and `/oc-full-recheck` are review-only and must not rewrite translated
 prose. `/oc-rule-update` and `/oc-rule-audit` edit only `TRANSLATION_GUIDE.md`,
 `CHARACTERS.md`, and/or `glossary.tsv`, and must not edit `docs/ja/*.md` or retranslate
-content.
+content. `/oc-review-introduction` is scoped to author-introduction prose only — see
+`.claude/skills/oc-review-introduction/SKILL.md`.
 
 ## LLM translation checklist
 
@@ -324,6 +429,12 @@ Before marking any section complete, verify all items:
 2. No paragraphs, sentences, dialogue lines, or author introduction omitted.
 3. No text invented; unclear source marked with TODO comment.
 4. Technical terms follow `glossary.tsv`; expand on first use.
+4a. Unfamiliar terms classified per **Reader orientation for technical and
+    culture-specific terms** (established/specialist/fictional-joking/intentionally
+    unexplained); functional explanation given at first use unless delay serves a
+    literary function; invented names/jokes not left reading as real external
+    references; technical agency and topology (what's logged into, rebooted, which
+    network/UPS is independent) verified.
 5. No unnecessary katakana jargon; use natural Japanese equivalents.
 6. Ambiguous pronouns resolved to explicit nouns.
 7. Verbatim-preserve items (handles, URLs, protocol names, brand names) preserved exactly.

@@ -77,6 +77,14 @@ Apply all rules from `TRANSLATION_GUIDE.md` and `CHARACTERS.md`:
 - Preserve period computing/gaming/sysadmin slang and cultural references without modernizing
 - Include `<small>` attribution footer at bottom
 - Do not consult any existing Japanese translation of the story
+- Apply `TRANSLATION_GUIDE.md § Reader orientation for technical and culture-specific
+  terms`: classify unfamiliar terms (established/specialist/fictional-or-joking/
+  intentionally-unexplained); give a brief functional gloss at first use unless the
+  delay itself is a joke, reveal, or suspense device; make invented or character-coined
+  names (e.g. a joking "law" named after a character) read as invented, not as a real
+  external reference; verify technical agency/topology (what's logged into, rebooted,
+  which network or UPS is independent) instead of preserving ambiguous English pronoun
+  attachment
 
 **Step 5 — Update navigation**
 Add entry to the appropriate sidebar group (前書き / 短編 / 情報) in `docs/.vitepress/config.mts`.

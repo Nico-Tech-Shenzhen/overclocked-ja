@@ -6,7 +6,10 @@ sysadmin (systems administrator)	シスアドミン（システム管理者）	C
 PEBKAC	PEBKAC（Problem Exists Between Keyboard And Chair）	Hacker acronym; kept in English/acronym form per source, glossed once on first use as in source text itself.
 root (root access/account)	root（管理者権限）	Unix admin-privilege term; kept as English loanword "root," gloss on first mention only.
 IRC	IRC	Internet Relay Chat; kept as English acronym, well-established in Japanese tech usage, no gloss needed.
-data center (cage)	データセンター（ケージ）	"Cage" = a caged/fenced server rack area within a data center; render as ケージ, glossed once.
+data center (cage)	データセンター内の施錠されたサーバー区画（ケージ）	"Cage" = a locked/fenced server-rack enclosure within a data center, not an animal cage. Give the functional gloss at first use in a story's body text, then use ケージ alone. Confirmed in "When Sysadmins Ruled the Earth."
+UPS (uninterruptible power supply)	UPS（無停電電源装置）	Expand once at first use in a story, then use UPS alone. Confirmed in "When Sysadmins Ruled the Earth."
+netblock	IPアドレス帯（ネットブロック）	A range/block of IP addresses. Give the functional gloss ("IPアドレス帯") at first use, keep the English term in parentheses since sysadmins use it as jargon, then use ネットブロック or アドレス帯 alone afterward. Confirmed in "When Sysadmins Ruled the Earth."
+luser	ルーザー	Hacker/sysadmin slang portmanteau of "loser" + "user," mocking inept end users; the pun is part of the joke, so keep the English-derived katakana term rather than translating as a plain insult. Gloss briefly on first use (e.g. 無能なユーザーを指すハッカー俗語). Confirmed in "When Sysadmins Ruled the Earth."
 worm (network worm)	ワーム	Standard Japanese tech loanword; no gloss needed.
 gold farming / gold farmer	ゴールドファーミング／ゴールドファーマー	Confirmed in "Anda's Game"; MMORPG term for paid grinding of in-game currency for real-money resale. Keep as established loanword, gloss on first mention.
 BFG (Big Friendly Gun)	BFG（Big Friendly Gun）	Generic in-game superweapon term in "Anda's Game"; kept as English acronym per source, glossed once on first use as in source text.
@@ -14,3 +17,6 @@ respawn / respawn gate	リスポーン／リスポーンゲート	Standard Japan
 noob	ノーブ（初心者）	Gamer slang for inexperienced player; confirmed in "Anda's Game," gloss on first mention.
 podge	ぽっちゃり（お肉）	Anda's own word for her body fat in "Anda's Game"; render as casual, self-deprecating, not clinical. Reconfirm register if it recurs elsewhere.
 chav	チャブ／素行の悪い若者	British slang for a particular working-class youth subculture/stereotype in "Anda's Game"; no exact Japanese equivalent, render descriptively with English term kept in katakana on recurrence.
+BGP	BGP（経路制御プロトコル）	Border Gateway Protocol; confirmed in "When Sysadmins Ruled the Earth" (terse system-monitor dialogue). Expand once at first use, then use BGP alone.
+root (privileged account, verb "give root")	root（管理者権限）	Unix admin-privilege term; confirmed in "When Sysadmins Ruled the Earth." Gloss on first mention only, use root alone after (including as a bare noun, "give root").
+Googloid	Googloid	Coined slang (Google employee/grunt) used by "Queen Kong" in "When Sysadmins Ruled the Earth"; kept as English coinage, no gloss needed from context (used alongside "Googleplex").

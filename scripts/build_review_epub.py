@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "dist" / "overclocked-ja-review.epub"
 TITLE = "Overclocked 日本語訳 レビュー版"
 AUTHOR = "Cory Doctorow"
-TRANSLATOR = "日本語訳: 高須正和（@tks） / 協力: ニコ技深圳コミュニティ"
+TRANSLATOR = "日本語訳・レビュー: ニコ技深圳コミュニティ / 高須正和（@tks）"
 
 # Official collection order. front-matter first, then the six stories.
 SECTIONS = [

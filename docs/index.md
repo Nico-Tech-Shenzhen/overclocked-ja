@@ -65,9 +65,7 @@ PDF・EPUB は現在準備中です。翻訳が一定量まとまった時点で
 
 <small>
 *原著*: *Overclocked: Stories of the Future Present* © Cory Doctorow<br>
-*出版*: Thunder's Mouth Press, 2007<br>
-*日本語訳*: 高須正和（@tks） — [https://takasumasakazu.net](https://takasumasakazu.net)<br>
-*協力*: ニコ技深圳コミュニティ<br>
-*ライセンス*: CC BY-NC-SA 2.5<br>
-*注記*: 本翻訳は、原著の Creative Commons ライセンス条件に従って公開する高須正和による日本語訳であり、出版社による公式日本語版ではありません。
+*出版*: Thunder's Mouth Press<br>
+*日本語訳・レビュー*: ニコ技深圳コミュニティ / 高須正和（@tks） — [https://takasumasakazu.net](https://takasumasakazu.net) — CC BY-NC-SA 2.5<br>
+*注記*: 本翻訳は、原著の Creative Commons ライセンス条件に従って公開する翻訳であり、出版社による公式日本語版ではありません。
 </small>

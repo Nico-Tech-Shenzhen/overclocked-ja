@@ -55,7 +55,7 @@ PDF_OUTPUT = OUTPUT_DIR / "overclocked-ja.pdf"
 
 TITLE = "Overclocked 日本語訳"
 AUTHOR = "Cory Doctorow"
-TRANSLATOR = "日本語訳: 高須正和（@tks） / 協力: ニコ技深圳コミュニティ"
+TRANSLATOR = "日本語訳・レビュー: ニコ技深圳コミュニティ / 高須正和（@tks）"
 LANGUAGE = "ja-JP"
 PROJECT_URL = "https://github.com/Nico-Tech-Shenzhen/overclocked-ja"
 LICENSE_NOTICE = (

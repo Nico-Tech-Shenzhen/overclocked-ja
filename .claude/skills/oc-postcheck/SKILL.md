@@ -26,6 +26,12 @@ Review already-translated sections. Read-only — do not rewrite prose.
    - `<small>` attribution footer present
    - No "公式日本語版", "公認翻訳", or similar official-translation claims anywhere
    - No sign that an existing published Japanese translation was consulted
+   - Per `TRANSLATION_GUIDE.md § Reader orientation for technical and culture-specific
+     terms`: no unexplained specialist term left opaque at first use; no explanation
+     lagging behind a term's first use without a literary reason; no invented/joking
+     name (e.g. a character-coined "law") reading as a real external reference; no
+     unclear technical agency or network/UPS topology from carried-over English pronoun
+     attachment
 
 4. **Report (English only)**
    Keep it compact: quote only the short excerpt needed to justify each finding, never

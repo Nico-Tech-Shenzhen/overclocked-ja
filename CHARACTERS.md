@@ -53,11 +53,12 @@ sentences mixed with a few long run-on sentences at moments of emotional intensi
 **Cast / names:** Narrator = レイニー (Lanie); her father addressed as "Da" → rendered
 consistently as 父さん; her mother referenced once as "Ma" → 母さん (she has died before the
 story's later scenes; no other detail about her is established).
-**Notes:** This is the opening, and shortest, story in the collection. Translated as pilot
-(2026-08-01), status: draft. One TODO left in the text: source phrase "The ipolice paid in
-high-grade pharmaceuticals" is unclear (possible scanning artifact for "the police"),
-translated provisionally as 警察 — flagged inline for human verification against
-`source/original/Cory_Doctorow_-_Overclocked_-_Printcrime.txt`.
+**Notes:** This is the opening, and shortest, story in the collection. Retranslated in full
+from `source/sections/01-printcrime.txt` (2026-08-02), status: draft. Resolved: source
+phrase "The ipolice paid in high-grade pharmaceuticals" — "ipolice" read as a scanning
+artifact for "the police" (the sentence describes the police paying an informant, Da's
+customer, in pharmaceuticals as a reward for the tip). Translated as 警察 with the payment
+made explicit ("その密告への見返りとして"); no TODO remains.
 
 ---
 
@@ -95,6 +96,16 @@ handmade-PC origin story) without modernizing. The "Will"/"Will Sario" name coll
 149 vs. § line 309 of the source) is intentional in the English text and preserved as-is in
 Japanese — 「ウィル」 for the son, 「ウィル・サリオ」 or 「サリオ」 for the sysadmin, to keep the
 reader's momentary confusion intact without over-clarifying.
+
+**"Felix's Law" (source: "Law of Infinite Universal Perversity -- AKA Felix's Law"):**
+This is not a real named law; it is a mock-formal joke Felix (or the narrator, in his
+voice) coined for himself after noticing he can never fix anything remotely after 1AM.
+Render it so the Japanese explicitly shows Felix naming/calling it that himself (e.g.
+「彼はそれを『森羅万象意地悪の法則』、略して『フェリックスの法則』と呼んでいた」), not as an
+opaque literal compound (avoid a bare, uncontextualized calque like
+「無限宇宙的意地悪の法則」) and not as if it were a famous external law the reader should
+already recognize. Preserve the source order: the observed pattern (nothing gets fixed
+remotely after 1AM) comes first, the joke name comes as the punch line after.
 
 ---
 
