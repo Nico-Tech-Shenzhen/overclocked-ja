@@ -1,0 +1,125 @@
+project:
+  id: overclocked-ja
+  title: "Overclocked: Stories of the Future Present — Japanese translation"
+  author: Cory Doctorow
+  source_language: en
+  target_language: ja
+  license: CC BY-NC-SA 2.5
+
+paths:
+  source: source/sections
+  original_source: source/original
+  translations: docs/ja
+  guide: TRANSLATION_GUIDE.md
+  characters: CHARACTERS.md
+  glossary: glossary.tsv
+
+translation:
+  default_status: draft
+  forbid_existing_translations: true
+  operational_language: en
+  reader_facing_language: ja
+  unit_type: collection-section
+  includes_author_introductions: true
+
+validation:
+  commands:
+    - python scripts/validate_sections.py
+    - python scripts/validate_links.py
+    - python scripts/audit_translation_rules.py
+    - npm run docs:build
+
+site:
+  generator: vitepress
+  build_command: npm run docs:build
+  index: docs/index.md
+  nav_config: docs/.vitepress/config.mts
+
+git:
+  commit_language: en
+  commit_requires_explicit_authorization: true
+  push_requires_explicit_authorization: true
+
+source_manifest:
+  manifest: source/manifest.json
+  download_verification: source/download-verification.json
+  prepare_command: python scripts/prepare_sources.py
+  internet_redownload_during_translation: false
+
+units:
+  - id: front-matter
+    title: Common collection forematter
+    source: source/sections/00-front-matter.txt
+    output: docs/ja/front-matter.md
+    status: missing
+  - id: printcrime
+    title: Printcrime
+    source: source/sections/01-printcrime.txt
+    output: docs/ja/printcrime.md
+    status: draft
+  - id: when-sysadmins-ruled-the-earth
+    title: When Sysadmins Ruled the Earth
+    source: source/sections/02-when-sysadmins-ruled-the-earth.txt
+    output: docs/ja/when-sysadmins-ruled-the-earth.md
+    status: draft
+  - id: andas-game
+    title: "Anda's Game"
+    source: source/sections/03-andas-game.txt
+    output: docs/ja/andas-game.md
+    status: draft
+  - id: i-robot
+    title: "I, Robot"
+    source: source/sections/04-i-robot.txt
+    output: docs/ja/i-robot.md
+    status: draft
+  - id: i-row-boat
+    title: "I, Row-Boat"
+    source: source/sections/05-i-row-boat.txt
+    output: docs/ja/i-row-boat.md
+    status: draft
+  - id: after-the-siege
+    title: After the Siege
+    source: source/sections/06-after-the-siege.txt
+    output: docs/ja/after-the-siege.md
+    status: draft
+  - id: license-legal-code
+    title: Creative Commons legal code
+    source: source/sections/07-license.txt
+    translate: false
+    status: source-only
+
+collection:
+  edition: 2007 original six-story collection
+  exclude_later_expanded_edition: true
+  story_order:
+    - printcrime
+    - when-sysadmins-ruled-the-earth
+    - andas-game
+    - i-robot
+    - i-row-boat
+    - after-the-siege
+
+publishing:
+  status_threshold: reviewed
+  pdf_epub:
+    allowed: true
+    generation_requires_explicit_authorization: true
+    publication_requires_explicit_authorization: true
+    build_script: scripts/build_book.py
+  unofficial_translation_notice_required: true
+
+credits:
+  translator: "Masakazu Takasu / Nico-Tech Shenzhen community"
+  source_publisher: "Thunder's Mouth Press"
+  credits_page: docs/credits.md
+
+license_policy:
+  source_license_page: docs/license.md
+  attribution_footer_required_per_translation: true
+  translated_text_license: CC BY-NC-SA 2.5
+
+compatibility:
+  claude_code:
+    instructions: CLAUDE.md
+    commands_and_skills: .claude
+    preserve: true
